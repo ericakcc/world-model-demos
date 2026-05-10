@@ -1,11 +1,15 @@
 [project]
-name = "gann-btc-predictor"
+name = "world-model-demos"
 version = "0.1.0"
-description = "Add your description here"
+description = "Small, traceable experiments for learning world models (Ha & Schmidhuber, Dreamer, video diffusion)."
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
-    "pandas>=2.3.3",
-    "plotly>=6.5.2",
-    "streamlit>=1.54.0",
+    "torch>=2.4",
+    "gymnasium[classic-control]>=1.0",
+    "numpy>=1.26",
+    "einops>=0.8",
+    "matplotlib>=3.9",
+    "tqdm>=4.66",
+    "jupyter>=1.1",
 ]

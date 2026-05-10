@@ -1,4 +1,24 @@
 __pycache__/
 *.pyc
-gann_output.json
+*.pyo
+
+# claude
 .claude/settings.local.json
+
+# experiment outputs
+data/
+runs/
+wandb/
+checkpoints/
+*.pt
+*.ckpt
+*.npz
+*.mp4
+
+# notebooks
+.ipynb_checkpoints/
+
+# python tooling
+.venv/
+.uv/
+*.egg-info/
